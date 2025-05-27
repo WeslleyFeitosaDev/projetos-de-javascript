@@ -8,6 +8,7 @@ window.addEventListener("mousemove",(enveto)=>{
 
         let deltaX=enveto.clientX - olhoX
         let deltaY=enveto.clientY - olhoY
+        
 
         let angle=Math.atan2(deltaY,deltaX)
 
