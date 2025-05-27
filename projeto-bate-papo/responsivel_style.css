@@ -1,0 +1,33 @@
+@media (max-width:800px){
+    .caixa_login{
+        width: 550px;
+    }
+}
+
+@media (max-width: 600px){
+    .caixa_login{
+        width: 300px;
+        height: 350px;
+    }
+    .parte_escura input{
+        width: 250px;
+        height: 25px;
+    }
+    .parte_clara input:first-child{
+        top: 10px;
+        width: 250px;
+        height: 25px !important;
+    }
+
+    .parte_clara input[type=password]{
+        width: 250px;
+        height: 25px !important;
+    }
+
+    .parte_clara button{
+        position: absolute;
+        width: 250px;
+        height: 35px;
+        bottom: 10px;
+    }
+}
